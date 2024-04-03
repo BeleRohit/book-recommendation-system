@@ -13,5 +13,5 @@ jobs:
       - uses: BeleRohit/book-recommendation-system # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "book-recommeder-app" #Must be unique in Heroku
+          heroku_app_name: "book-recommender-app" #Must be unique in Heroku
           heroku_email: "braintalks603@gmail.com"
