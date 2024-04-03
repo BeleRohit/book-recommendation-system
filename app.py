@@ -2,10 +2,10 @@ from flask import Flask,render_template,request
 import pickle
 import numpy as np
 
-popular_df = pickle.load(open('popular.pkl','rb'))
-pt = pickle.load(open('pt.pkl','rb'))
-books = pickle.load(open('books.pkl','rb'))
-similarity_scores = pickle.load(open('similarity_scores.pkl','rb'))
+popular_df = pickle.load(open('/Users/rohitbele/Desktop/End_to_End_Projects/Deep Learning/book-recommendation-system/pickles/popular.pkl','rb'))
+pt = pickle.load(open('/Users/rohitbele/Desktop/End_to_End_Projects/Deep Learning/book-recommendation-system/pickles/pt.pkl','rb'))
+books = pickle.load(open('/Users/rohitbele/Desktop/End_to_End_Projects/Deep Learning/book-recommendation-system/pickles/books.pkl','rb'))
+similarity_scores = pickle.load(open('/Users/rohitbele/Desktop/End_to_End_Projects/Deep Learning/book-recommendation-system/pickles/similarity_scores.pkl','rb'))
 
 app = Flask(__name__)
 
